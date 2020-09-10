@@ -10,7 +10,7 @@ axios.defaults.jar = cookiejar;
 
 const AxiosService = async (url) => {
   try {
-    const response = await axios.get(url);
+    const response = await axios.get(url, process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0);
     if (response.status === 200) {
       return Promise.resolve(response);
     }
