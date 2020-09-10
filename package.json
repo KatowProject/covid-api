@@ -1,0 +1,26 @@
+{
+  "name": "karawang-covid-api",
+  "version": "1.0.0",
+  "description": "cek data covid di karawang",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "covid"
+  ],
+  "author": "KatowProject",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "axios-cookiejar-support": "^1.0.0",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.1.0",
+    "ssl-root-cas": "^1.3.1",
+    "tough-cookie": "^4.0.0"
+  }
+}
